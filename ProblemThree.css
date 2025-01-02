@@ -1,0 +1,25 @@
+.custom-blue {
+    background-color: #0056b3; 
+  }
+  .page-item {
+    color: white; /* Text color for default page items */
+  }
+  
+  .page-link {
+    color: white; /* Ensures link text is visible */
+    background-color: blue; /* No background by default */
+   
+  }
+  
+  .page-item.active .page-link {
+    background-color: yellow; /* Yellow background for active page */
+    color: white; /* Text color for contrast */
+    border-color: yellow; /* Matches the background */
+    
+  }
+  
+  .page-item:hover .page-link {
+    background-color: gray; /* Background on hover */
+    color: white; /* Text color on hover */
+  }
+  
